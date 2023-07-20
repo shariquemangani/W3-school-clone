@@ -1,0 +1,433 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro Topnav', sans-serif
+}
+
+
+header.header {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 20;
+
+}
+
+header nav.navbar {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header nav.navbar i {
+    margin-bottom: 6px;
+    margin-left: 6px;
+}
+
+header div img {
+    width: 40px;
+    margin-left: 10px;
+    padding: 1px;
+}
+
+.nav-item1 {
+    padding: 10px;
+}
+
+.nav-item2,
+.nav-item3,
+.nav-item4,
+.nav-item5 {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px 5px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.nav-item6 {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item6 button {
+    cursor: pointer;
+}
+
+
+.nav-item2:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.nav-item3:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.nav-item4:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.nav-item5:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.nav-item2 h5,
+.nav-item3 h5,
+.nav-item4 h5,
+.nav-item5 h5 {
+    letter-spacing: 0.5px;
+}
+
+.nav-item2 i,
+.nav-item3 i,
+.nav-item4 i,
+.nav-item5 i {
+    cursor: pointer;
+
+}
+
+.nav-item6 button {
+    padding: 11px;
+    width: 110px;
+    border-radius: 25px;
+    border: none;
+}
+
+.nav-item6 button.btn1 {
+    background-color: #04aa6d;
+    font-size: 1rem;
+    color: white;
+    margin-right: -30px;
+    z-index: 1;
+}
+
+.nav-item6 button.btn2 {
+    background-color: #d9eee1;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.nav-item6 button.btn1:hover {
+    background-color: #04945f;
+}
+
+.nav-item6 button.btn2:hover {
+    background-color: #04945f;
+    color: white;
+}
+
+section.content {
+    width: 100%;
+}
+
+section header {
+    margin-top: 56px;
+    width: 100%;
+    display: flex;
+    background-color: #282a35;
+    position: fixed;
+    z-index: 100;
+}
+
+section header div {
+    height: 100%;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+section header div:hover {
+    background-color: #000000;
+}
+
+section header div a {
+    color: #ddd;
+    font-weight: 100;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.main {
+    position: relative;
+    min-height: 70vh;
+    background-color: #282a35;
+}
+
+div div.center-content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 70px;
+}
+
+div div.center-content::before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+div div.center-content h1 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+div div.center-content h3 {
+    font-size: 1.3rem;
+    color: #FFC0C7;
+}
+
+div div.center-content div.search {
+    min-width: 400px;
+}
+
+div div.center-content div.search input {
+    width: 80%;
+    padding: 16px 35px 16px 35px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    float: left;
+    border: none;
+    font-weight: bold;
+}
+
+div div.center-content div.search button {
+    font-size: 15px;
+    width: 20%;
+    padding: 15px 0px;
+    background-color: #04AA6D;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+div div.center-content div.search button:hover {
+    background-color: #029a62;
+}
+
+div div.center-content a {
+    color: white;
+    font-size: 20px;
+}
+
+div div.center-content a h4 {
+    display: inline;
+}
+
+div div.center-content a:hover{
+    color: #059862;
+}
+
+.mar {
+    margin: 35px 0px;
+}
+
+/* //////////////////////////      section#content2        ////////////// */
+
+section#content2 {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #d9eee1;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+}
+
+section#content3 {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #fff4a3;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+}
+
+section#content4 {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #282a35;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+}
+
+section#content5 {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #f3ecea;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+}
+
+section#content6 {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #96d4d4;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+}
+
+section#content2 div.align-html-sec,
+section#content3 div.align-html-sec,
+section#content4 div.align-html-sec,
+section#content5 div.align-html-sec,
+section#content6 div.align-html-sec {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+}
+
+section#content2 div.part1,
+section#content3 div.part1,
+section#content4 div.part1,
+section#content5 div.part1,
+section#content6 div.part1 {
+    margin-left: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section#content2 div.part1 div.part1-inner,
+section#content3 div.part1 div.part1-inner,
+section#content4 div.part1 div.part1-inner,
+section#content5 div.part1 div.part1-inner,
+section#content6 div.part1 div.part1-inner {
+    width: 500px;
+    height: 100%;
+}
+
+section#content2 div.part1 h1,
+section#content3 div.part1 h1,
+section#content4 div.part1 h1,
+section#content5 div.part1 h1,
+section#content6 div.part1 h1 {
+    font-size: 75px;
+    margin: 20px 0px;
+
+}
+
+section#content4 div.part1 h1 {
+    color: white;
+}
+
+section#content4 div.part1 h3 {
+    color: white;
+}
+
+section#content2 div.part1 a,
+section#content3 div.part1 a,
+section#content4 div.part1 a,
+section#content5 div.part1 a,
+section#content6 div.part1 a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    margin: 25px auto;
+    border-radius: 50px;
+}
+
+
+section#content2 div.part2,
+section#content3 div.part2,
+section#content4 div.part2,
+section#content5 div.part2,
+section#content6 div.part2 {
+    margin: 20px;
+    margin-right: auto;
+}
+
+section#content2 div.part2 div.code-img,
+section#content3 div.part2 div.code-img,
+section#content4 div.part2 div.code-img,
+section#content5 div.part2 div.code-img,
+section#content6 div.part2 div.code-img {
+    background-color: #e7e9eb;
+    width: 450px;
+    box-shadow: 0px 1px 5px 0px gray;
+    border-radius: 5px;
+    padding: 30px 20px 20px 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section#content2 div.part2 div.code-img img,
+section#content3 div.part2 div.code-img img,
+section#content4 div.part2 div.code-img img,
+section#content5 div.part2 div.code-img img,
+section#content6 div.part2 div.code-img img {
+    width: 100%;
+    margin: 25px 0px;
+
+
+}
+
+section#content2 div.part2 div.code-img a,
+section#content3 div.part2 div.code-img a,
+section#content4 div.part2 div.code-img a,
+section#content5 div.part2 div.code-img a,
+section#content6 div.part2 div.code-img a {
+    width: 200px;
+    background-color: #04aa6d;
+    padding: 12px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ////////////////////////////////////////// */
+.txblack {
+    color: black;
+    font-weight: bold;
+}
+
+.txwhite {
+    color: white;
+    font-weight: bold;
+}
+
+.pad {
+    padding: 13px 0px;
+}
+
+.green {
+    background-color: #04aa6d;
+}
+
+.Yellow {
+    background-color: #fff4a3;
+}
+
+.black {
+    background-color: #282a35;
+}
+
+.pink {
+    background-color: #ffc0c7;
+}
+
+.bg2 {
+    background-color: #fff4a3 !important;
+}
+
+
+/* ////////////////////     REsponsive      /////////////////// */

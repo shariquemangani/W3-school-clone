@@ -1,0 +1,7 @@
+FIRST TASK = https://chat.openai.com/share/b6f89669-8130-4bf8-b60d-d579c6dd3e6e
+
+SECOND TASK  = https://chat.openai.com/share/a134ddb3-b24f-4852-b161-63307fb0764a
+
+THIRD TASK = https://chat.openai.com/share/7350402a-eb02-4f4a-be62-1dc01c10d54a
+
+FOURTH TASK = https://chat.openai.com/share/4a1d43af-ef66-4b9d-8c49-024f723f6d81
